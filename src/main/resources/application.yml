@@ -1,0 +1,23 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 500
+        min-idle: 5
+    lettuce:
+      shutdown-timeout: 0
+  application:
+    name: rabbitmq-demo
+    rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+      username: admin
+      password: admin
+
+    server:
+      port: 1520
