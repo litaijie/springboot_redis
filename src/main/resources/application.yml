@@ -19,5 +19,5 @@ spring:
       username: admin
       password: admin
 
-    server:
-      port: 1520
+server:
+  port: 1520
